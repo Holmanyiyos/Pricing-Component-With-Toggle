@@ -1,0 +1,81 @@
+main{
+    background-color: rgba(247, 247, 255, 1);
+}
+.container-switch{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.switch{
+    background: linear-gradient(90deg, rgba(162, 166, 238,1), rgba(103, 106, 212, 1));
+    width: 50px;
+    height: 24px;
+    border-radius: 15px;
+    margin: 20px 5px;
+    position: relative;
+}
+.switch div{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgba(103, 106, 212, 1);
+    position: initial;
+}
+.switch div:focus{
+    position: absolute;
+    left: 10px;
+    background-color: lawngreen;
+}
+.container-cards{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.center{
+    height: 320px;
+    position: inherit;
+    top: -10px;
+    background: linear-gradient(180deg, rgba(162, 166, 238,1), rgba(103, 106, 212, 1));
+    color: white;
+}
+p{
+    line-height: 30px;
+    width: 150px;
+}
+.card p:nth-child(odd){
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.card p:last-child{
+    margin-bottom: 40px;
+}
+button{
+    background: linear-gradient(90deg, rgba(162, 166, 238,1), rgba(103, 106, 212, 1));
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.center button{
+    background: white;
+    color:rgba(103, 106, 212, 1) ;
+}
